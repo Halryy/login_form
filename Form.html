@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <form>
+        <div>
+        <span class="esquerda">
+            <label for="nome">Nome completo:</label>
+            <input placeholder="Nome completo" id="nome" type="text">
+            <label for="rg">RG:</label>
+            <input placeholder="00.000.000-00" id="rg" type="text">
+            <label for="pai">Pai:</label>
+            <input placeholder="Nome do pai" id="pai" type="text">
+            <label for="escolaridade">Escolaridade:</label>
+            <select name="" id="escolaridade">
+                <option value="123">Selecione</option>
+                <option value="">Ensino médio</option>
+                <option value="">Ensino fundamental</option>
+                <option value="">Ensino superior</option>
+            </select>
+            <label for="telefone">Telefone</label>
+            <input placeholder="(00) 00000-0000" id="telefone" type="tel">
+            <label for="e-mail">E-mail:</label>
+            <input placeholder="exemplo@email.com" type="email" name="" id="e-mail">
+        </span>
+        <span class="direita">
+            <label for="data">Data de nascimento:</label>
+            <input type="text" placeholder="__/__/____" name="" id="data">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="___.___.___-__" name="" id="cpf">
+            <label for="nomemae">Mãe:</label>
+            <input type="text" placeholder="Nome da mãe" name="" id="nomemae">
+            <label for="profissao">Profissão:</label>
+            <input type="text" placeholder="Profissão" name="" id="profissao">
+            <label for="celular">Celular:</label>
+            <input type="text" placeholder="(+55) _ ____-____" name="" id="celular">
+        </span>
+    </div>
+        <span class="taozao">
+            <button type="submit" class="tao">Cadastrar</button>
+            <button class="tao" type="reset">Limpar Campos</button>
+        </span>
+    </form>
+</body>
+
+</html>
