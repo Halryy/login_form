@@ -27,7 +27,7 @@ body {
     height: 100%;
 }
 
-.login{
+.login {
     background-color: white;
     width: 500px;
     height: 600px;
@@ -38,16 +38,17 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
     flex-direction: column;
 }
 
-.redlabel{
+.redlabel {
     margin-right: 10px;
     width: 2rem;
     display: flex;
 }
 
-.userinput{
+.userinput {
     width: 300px;
     height: 40px;
     box-shadow: 3px 3px 5px 1px black;
@@ -56,11 +57,16 @@ body {
     padding: 0.5rem;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
-.btnlogin{
+.btnlogin {
     border-radius: 5px;
     background-color: #6b6969;
     text-decoration: none;
@@ -75,14 +81,22 @@ input[type="checkbox"]{
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 25%;
-    
+
 
 
 }
 
-.btnlogin:hover{
+.btnlogin:hover {
     background-color: black;
     color: white;
     font-weight: 700;
 }
 
+.styledocheckbox {
+    height: max-content;
+    display: flex;
+    width: max-content;
+    margin-right: 11rem;
+    justify-content: center;
+    align-items: center;
+}
